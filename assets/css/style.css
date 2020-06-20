@@ -1,0 +1,163 @@
+/* Resets e configs  */
+body {
+  transition: all .3s ease; /* <== adiciona esse transition apenas para uma animação suave para o darkmode */
+  margin: 0;
+  padding: 0;
+  background: #FDFDFD;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.absolute-center { /* Centraliza absolutamente ao meio */
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 100%;
+  margin-top: 0px;
+	transform: translateY(-50%);
+	z-index: 20;
+}
+/* Resets e configs termina aqui */
+
+/* Modo escuro */
+.dark-mode {
+  background: #121212 !important;
+}
+
+.dark-mode #formulario {
+  box-shadow: 0 20px 60px 0 rgba(186,200,227,.1), 0 16px 36px 10px rgba(7, 7, 7, 0.3);
+  background: rgb(255, 255, 255);
+}
+
+.dark-mode tr {
+  text-align: center;
+  padding: 8px;
+  background: rgb(226, 226, 226);
+}
+/* Modo escuro termina aqui */
+
+/* Formulário / calculadora */
+input::placeholder {
+  font-size: 0.8em;
+  font-weight: 200;
+  opacity: 0.3;
+}
+
+#calculadora {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#formulario {
+  width: 580px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 10px 10px 10px;
+  box-shadow: 0 20px 60px 0 rgba(186,200,227,.1), 0 16px 36px 10px rgba(186,200,227,.3);
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  outline: none !important;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 10px;
+  outline: 1px solid #FFC83D;
+}
+
+form input:focus {
+  outline: 2px solid #FFC83D;
+}
+
+form button {
+  border: none;
+  background: #FFC83D;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all .3s ease;
+  border-radius: 2px;
+  width: 100%;
+}
+
+form button:hover {
+  background: #ffcd4f
+}
+
+strong {
+  color: #ffc022;
+}
+/* Formulário / calculadora termina aqui */
+
+/* Marca registrada */
+.tm a {
+  position: relative;
+  text-align: center;
+  color: #ffc022;
+  text-decoration: none;
+  bottom: 0;
+  top: 93vh;
+}
+/* Marca registrada termina aqui */
+
+
+/* Responsivo */
+@media (min-width: 300px) and (max-width: 700px)  {
+
+  #calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  #formulario {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .absolute-center {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    width: 100%;
+    margin-top: 0px;
+    transform: translateY(-50%);
+    z-index: 20;
+  }
+
+  .tm a {
+    position: relative;
+    text-align: center;
+    color: #ffc022;
+    text-decoration: none;
+    bottom: 0;
+    top: 85vh;
+  }
+
+}
+/* Responsivo termina aqui */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Meta tags necessárias -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Tags para SEO -->
+  <meta name="description" content="Uma simples (porém funcional) calculadora de IMC.">
+  <meta name="keywords" content="IMC, imc, massa corporal, indice, calcular imc, calculadora imc">
+  <meta name="revisit-after" content="1 day"> 
+  <meta name="robots" content= "index, follow">
+  <meta name="language" content="Portuguese"> 
+  <meta name="author" content="Caio Augusto">
+
+  <!-- Título da página -->
+  <title> Calculadora de IMC </title>
+
+  <!-- Importa o estilo customizado  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Importa a fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>  
+  <!-- Calculadora / home -->
+  <section id="calculadora" class="absolute-center">
+    <div class="container">
+      <div class="calculadora">
+        <!-- Formulário -->
+        <div class="form">
+          <form id="formulario">
+            <!-- Titulo do formulário -->
+            <h1>Calcule meu IMC</h1>
+
+            <!-- Valor da altura -->
+            <label for="altura"> Altura </label>
+            <input type="number" step=".01" id="altura" name="altura" placeholder="Insira sua altura, em metro(s)" required>
+
+            <!-- Valor do peso -->
+            <label for="peso"> Peso </label>
+            <input type="number" id="peso" name="peso" placeholder="Insira seu peso, em quilograma(s)  " required>
+
+            <!-- Botão para calcular -->
+            <button type="submit" id="calcular">Calcular meu IMC</button>
+
+            <!-- Resultado do cálculo -->
+            <div class="resultado"></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Calculadora / home termina aqui -->
+  
+  <!-- Link para o portfólio -->
+  <div class="tm">
+    <a href="https://caiohtml.com" target="_blank"><p> Por: Caio Augusto </p></a>
+  </div>
+  <!-- Link para o portfólio termina aqui -->
+
+  <!-- Importa o JavaScript -->
+  <script src="./assets/js/main.js"></script>
+  <!-- Import o JavaScript termina aqui -->
+
+</body>
+
+</html>
