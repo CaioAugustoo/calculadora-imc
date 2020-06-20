@@ -44,20 +44,3 @@ function resultadoFormulario(event) {
 
 // Quando pressionar o botão, execute a função "resultadoFormulario"
 form.addEventListener('submit', resultadoFormulario)
-
-
-// Função para Darkmode
-function ativaDarkMode(event) {
-  // Caso o usuário pressione a tecla "D", ative o modo escuro
-  if(event.key === 'd') {
-    document.body.classList.toggle('dark-mode')
-  } 
-  // Caso não pressione, remova o modo escuro
-  else {
-    document.body.classList.remove('dark-mode')
-  }
-}
-
-// Quando pressionar tal tecla, execute a função "ativaDarkMode"
-window.addEventListener('keydown', ativaDarkMode)
-
