@@ -13,7 +13,7 @@ function resultadoFormulario(event) {
   const inputAltura = document.querySelector('#altura').value;
 
   // Com os valores dos inputs obtidos, calculamos para obter o resultado do IMC ( Peso dividido por altura² )
-  const imcTotal = (inputPeso / (inputAltura * inputAltura)).toFixed(1);
+  const imcTotal = (inputPeso / (inputAltura * inputAltura)).toFixed(2);
   
   // Se o IMC do usuário for menor que 18,5 execute essa linha:
    if (imcTotal >= 0 && imcTotal <= 18.5){
