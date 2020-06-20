@@ -100,18 +100,6 @@ strong {
 }
 /* Formulário / calculadora termina aqui */
 
-/* Marca registrada */
-.tm a {
-  position: relative;
-  text-align: center;
-  color: #ffc022;
-  text-decoration: none;
-  bottom: 0;
-  top: 93vh;
-}
-/* Marca registrada termina aqui */
-
-
 /* Responsivo */
 @media (min-width: 300px) and (max-width: 700px)  {
 
@@ -139,15 +127,6 @@ strong {
     transform: translateY(-50%);
     z-index: 20;
   }
-
-  .tm a {
-    position: relative;
-    text-align: center;
-    color: #ffc022;
-    text-decoration: none;
-    bottom: 0;
-    top: 85vh;
-  }
-
+	
 }
 /* Responsivo termina aqui */
