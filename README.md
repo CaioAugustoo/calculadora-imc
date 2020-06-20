@@ -13,8 +13,6 @@ Modo Desktop:
 Modo Mobile:
 [![Image from Gyazo](https://i.gyazo.com/7adb9f28c7e9f3799969f3689fe906a2.gif)](https://gyazo.com/7adb9f28c7e9f3799969f3689fe906a2)
 
-~Segredinho: ao pressionar a tecla "D", o site fica em modo noturno~
-
 Você pode acessar o projeto em: https://caioaugustoo.github.io/calculadora-imc/
 
 # Tecnologias 
