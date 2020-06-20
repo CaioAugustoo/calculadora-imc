@@ -1,5 +1,5 @@
 # Calculadora de IMC
-Uma simples (porém funcional) calculadora de IMC.
+Uma simples (porém funcional) calculadora de IMC feita com JavaScript.
 
 # Sobre o Projeto
 Este projeto consiste em calcular o IMC de qualquer pessoa. Após o usuário inserir a sua altura e seu peso, o site lhe informa quanto é o IMC da pessoa.
