@@ -36,23 +36,6 @@ input::-webkit-inner-spin-button {
 }
 /* Resets e configs termina aqui */
 
-/* Modo escuro */
-.dark-mode {
-  background: #121212 !important;
-}
-
-.dark-mode #formulario {
-  box-shadow: 0 20px 60px 0 rgba(186,200,227,.1), 0 16px 36px 10px rgba(7, 7, 7, 0.3);
-  background: rgb(255, 255, 255);
-}
-
-.dark-mode tr {
-  text-align: center;
-  padding: 8px;
-  background: rgb(226, 226, 226);
-}
-/* Modo escuro termina aqui */
-
 /* Formulário / calculadora */
 input::placeholder {
   font-size: 0.8em;
