@@ -15,7 +15,7 @@ Modo Mobile:
 
 ~Segredinho: ao pressionar a tecla "D", o site fica em modo noturno~
 
-Você pode acessar o projeto em: 
+Você pode acessar o projeto em: https://caioaugustoo.github.io/calculadora-imc/
 
 # Tecnologias 
 Para a realização deste projeto, foi utilizado apenas **HTML5, CSS3 e Javascript**.
